@@ -9,6 +9,8 @@ import { ForecastComponent } from './forecast/forecast.component';
 import { weatherRouting } from './weather.routing';
 import { WeatherService } from './weather.service';
 import { HttpModule } from '@angular/http';
+import {ResolveLocationService} from './resolve-location.service';
+import {FormsModule , ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,12 @@ import { HttpModule } from '@angular/http';
   imports: [
     BrowserModule,
     weatherRouting,
-    HttpModule
+    HttpModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [WeatherService],
+  providers: [WeatherService,
+  ResolveLocationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

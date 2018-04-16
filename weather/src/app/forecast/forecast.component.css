@@ -1,0 +1,40 @@
+.container-block{
+    padding: 20px;
+    margin-left: 20px;
+}
+
+form{
+    text-align: center;
+    padding-top: 5%;
+}
+
+input{
+    padding: 5px;
+    border-color: cyan;
+}
+
+button{
+    background-color: cyan;
+    padding-inline-end: 10px;
+    padding-inline-start: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.day{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+h3{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.icon{
+    margin-left: 25px;
+}
+
+h2{
+    margin-left: 15px;
+}

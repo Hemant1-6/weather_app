@@ -6,3 +6,19 @@
 h3{
     text-transform: uppercase;
 }
+
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: cyan;
+    color: white;
+    font-size: 18px;
+}
+
+input{
+    padding: 5px;
+}
+form{
+    text-align: center;
+}
